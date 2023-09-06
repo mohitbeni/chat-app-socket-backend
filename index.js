@@ -1,7 +1,11 @@
 const { Server } = require('socket.io')
 
 const io = new Server({
-  cors: 'http://localhost:5173',
+  // localhost
+  // cors: 'http://localhost:5173',
+
+  // internet
+  cors: 'https://mechatnow-app.netlify.app/',
 })
 
 let onlineUsers = []
