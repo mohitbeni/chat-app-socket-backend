@@ -5,7 +5,7 @@ const io = new Server({
   // cors: 'http://localhost:5173',
 
   // internet
-  cors: 'https://mechatnow-app.netlify.app/',
+  cors: 'https://mechatnow.netlify.app',
 })
 
 let onlineUsers = []
